@@ -1,0 +1,25 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+
+  line-height: 24px;
+  font-weight: 400;
+/*   background-image: url(/public/img/fondo.svg);
+  background-repeat: repeat-y;
+  background-size:100%; */
+  background-color: #0F1017;
+
+}
+::-webkit-scrollbar{
+  width:7px;
+  height: 10px;
+}
+::-webkit-scrollbar-thumb{
+  background-image:  linear-gradient(to right, rgb(202, 138, 4), rgb(220, 38, 38));
+  border-radius: 5px 5px;
+}
+::-webkit-scrollbar-track{
+  background: transparent;
+  border-radius: 5px 5px;
+}
+
+

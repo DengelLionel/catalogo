@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="687.917mm" height="282.222mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 68792 28222"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil6 {fill:none}
+    .fil0 {fill:white}
+    .fil1 {fill:url(#id1)}
+    .fil2 {fill:url(#id2)}
+    .fil5 {fill:url(#id3)}
+    .fil4 {fill:url(#id4)}
+    .fil3 {fill:url(#id5)}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M-18 28222l68810 0 0 -28222 -68810 0 0 28222z"/>
+   </clipPath>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" x1="33953.6" y1="2460.96" x2="41315.9" y2="-3766.38">
+   <stop offset="0" style="stop-opacity:1; stop-color:whitesmoke"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#E5E5E5"/>
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id1" x1="-2.14404e+07" y1="8.97921e+06" x2="-2.14404e+07" y2="514616">
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id1" x1="5.58838e+06" y1="-1.93158e+06" x2="6.30077e+06" y2="-2.3958e+06">
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" xlink:href="#id1" x1="-2.14404e+07" y1="-6.57736e+06" x2="-2.14404e+07" y2="-1.30581e+07">
+  </linearGradient>
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id1" x1="-4.55528e+06" y1="-1.21603e+06" x2="4.94059e+06" y2="-5.78825e+06">
+  </linearGradient>
+ </defs>
+ <g id="Capa_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g>
+    <rect class="fil0" x="-204" y="-95" width="82224" height="34329"/>
+    <ellipse class="fil1" cx="50882" cy="19559" rx="5348" ry="4245"/>
+    <ellipse class="fil2" cx="65756" cy="34591" rx="17120" ry="9285"/>
+    <ellipse class="fil3" cx="135" cy="14854" rx="13567" ry="6533"/>
+    <ellipse class="fil4" cx="72500" cy="1916" rx="15321" ry="8023"/>
+    <ellipse class="fil5" cx="36964" cy="7294" rx="3548" ry="2312"/>
+   </g>
+  </g>
+  <polygon class="fil6" points="-18,28222 68792,28222 68792,0 -18,0 "/>
+ </g>
+</svg>
