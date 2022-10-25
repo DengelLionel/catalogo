@@ -4,7 +4,7 @@ export const productos=[
         producto:"Cuaderno Prisma",
         imagen:"https://nuestralibreria.com/wp-content/uploads/2021/01/30301798.jpg.png",
         precio:"s/.150.00",
-        mensajewsp:"https://wa.me/+51977766744?text=Hola%20Quiero%20comprar%20este%20cuaderno%20de%20marca%20prisma",
+        mensajewsp:"https://wa.me/+51924267342?text=Hola%20Quiero%20comprar%20este%20cuaderno%20de%20marca%20prisma",
         detalles:{
             imagenes:[
                 {id:1,imagen:"https://wongfood.vteximg.com.br/arquivos/ids/511198-230-230/Cuaderno-92-Hojas-Scool-Rayado-Surtido-1-22794.jpg?v=637777683089900000"},
@@ -27,7 +27,7 @@ export const productos=[
         producto:"Cuaderno Trome",
         imagen:"/img/cuaderno.png",
         precio:"s/.110.00",
-        mensajewsp:"https://wa.me/+51977766744?text=Hola%20Quiero%20comprar%20este%20cuaderno%20de%20marca%20Trome",
+        mensajewsp:"https://wa.me/+51924267342?text=Hola%20Quiero%20comprar%20este%20cuaderno%20de%20marca%20Trome",
         detalles:{
             imagenes:[
                 {id:1,imagen:"https://wongfood.vteximg.com.br/arquivos/ids/511198-230-230/Cuaderno-92-Hojas-Scool-Rayado-Surtido-1-22794.jpg?v=637777683089900000"},
