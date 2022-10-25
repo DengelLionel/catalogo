@@ -23,7 +23,7 @@ const Modal = ({children}:modal) => {
         </section>
         
     </div>
-  ,document.getElementById('modal'))
+  ,document.getElementById('modal')!)
 }
 
 export default Modal
