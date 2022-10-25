@@ -26,7 +26,7 @@ const ContenidoCardDerecha = ({titulo,precio,imagen,detalles,wsp}:contenido) => 
             <h2 className='font-Oswald font-bold text-2xl text-white mt-[10px] mb-[15px]'>CARACTERÍSTICAS</h2>
             {detalles.caracteristicas?.map((caracteristica:any)=>{
               return(
-                <article key="" className='mt-1 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 border-transparent w-[400px] p-[8px] '>
+                <article key={caracteristica.id} className='mt-1 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 border-transparent w-[400px] p-[8px] '>
                 <p className='text-white font-Roboto font-extralight'>
                   {caracteristica.caracteristica}
                 </p>
