@@ -12,9 +12,11 @@ export const productos=[
                 {id:3,imagen:"https://s.yimg.com/ny/api/res/1.2/_PkZsMinPB2Jlf6K7Qvb3Q--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MA--/https://lh6.googleusercontent.com/78zD_N1HtomwmRy1KBlxr6I8kDVeDes5kNYy60cd7QtaojrgyfZO4f_yN_KWbCCzpx1-Xk7cARHzDkKBAZ6FqCODEUz3pTRL54huJKawZIIOfHnbT01MWjdxnku0y_sAPsi-PhMc7fdslk4Fdqqi-sc"},
             ],
             caracteristicas:[
-               {id:1,caracteristica:""},
-               {id:2,caracteristica:""},
-               {id:3,caracteristica:""}, 
+               {id:1,caracteristica:"Cuaderno anillado"},
+               {id:2,caracteristica:"Tamaño: A - 5"},
+               {id:3,caracteristica:"Número de hojas: 140 Hojas"}, 
+               {id:4,caracteristica:"Tipo de lineado: Cuadriculado"},
+               {id:5,caracteristica:"Imágenes referenciales"}
             ]
                
             
