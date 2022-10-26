@@ -7,6 +7,8 @@ interface datos{
     setActivoModal:(valor:boolean|undefined)=>void,
     datoModal:number|undefined,
     setDatoModal:(datId:number)=>void, 
+    mostrarDetalle:boolean|undefined,
+    setMostrarDetalle:(mostrarDet:boolean|undefined)=>void,
 }
 export const CatalogoContext=createContext<datos>({
     ide:0,
@@ -14,7 +16,9 @@ export const CatalogoContext=createContext<datos>({
     activoModal:false,
     setActivoModal:()=>{},
     datoModal:0,
-    setDatoModal:()=>{}
+    setDatoModal:()=>{},
+    mostrarDetalle:false,
+    setMostrarDetalle:()=>{}
 
 })
 
@@ -25,8 +29,9 @@ export const CatalogoC=({children}:context)=>{
     const [ide,setIde]=useState <number>();
     const [activoModal,setActivoModal]=useState<boolean|undefined>(false);
     const [datoModal,setDatoModal]=useState<number>(0);
+    const [mostrarDetalle,setMostrarDetalle]=useState<boolean|undefined>(false);
     return(
-        <CatalogoContext.Provider value={{ide,setIde,activoModal,setActivoModal,datoModal,setDatoModal}}>
+        <CatalogoContext.Provider value={{ide,setIde,activoModal,setActivoModal,datoModal,setDatoModal,mostrarDetalle,setMostrarDetalle}}>
             {children}
         </CatalogoContext.Provider>
     )

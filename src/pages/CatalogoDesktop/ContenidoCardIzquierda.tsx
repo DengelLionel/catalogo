@@ -19,7 +19,7 @@ const ContenidoCardIzquierda = ({titulo,precio,imagen,detalles,wsp}:contenido) =
         wsp={wsp}
         />
         <article>
-            <h2 className='font-Oswald font-bold text-3xl text-center uppercase text-white mb-[15px]'>{titulo}</h2>
+            <h2 className='font-Oswald font-bold text-3xl text-center uppercase text-white mb-[15px] only:mt-1 bg-gradient-to-r from-yellow-600 to-red-600 bg-clip-text tracking-tighter text-transparent'>{titulo}</h2>
             <section className='w-[400px] h-[100px] rounded-tr-2xl rounded-br-2xl rounded-tl-2xl rounded-bl-2xl  overflow-x-scroll overflow-y-hidden flex flex-row justify-center items-center p-[4px]'>
               {detalles.imagenes?.map((imagenes:any)=>{
                 return(
@@ -30,7 +30,7 @@ const ContenidoCardIzquierda = ({titulo,precio,imagen,detalles,wsp}:contenido) =
             <h2 className='font-Oswald font-bold text-2xl text-white mt-[10px] mb-[15px]'>CARACTERÍSTICAS</h2>
             {detalles.caracteristicas?.map((caracteristica:any)=>{
               return(
-                <article key={caracteristica.id} className='mt-1 bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 border-transparent w-[400px] p-[8px] '>
+                <article key={caracteristica.id} className='mt-1 border-gradient-br-yellow-red-gray-900 border-transparent border-solid border-2 w-full p-[8px]'>
                 <p className='text-white font-Roboto font-extralight'>
                   {caracteristica.caracteristica}
                 </p>
