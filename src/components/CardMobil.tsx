@@ -28,7 +28,7 @@ const Card = ({titulo,precio,imagen,identificador,detalles,wsp}:card) => {
 
        <h2 className='relative top-[50px] only:mt-1 bg-gradient-to-r from-yellow-600 to-red-600 bg-clip-text text-2xl font-extrabold font-Oswald uppercase tracking-tighter text-transparent sm:text-5xl text-center '>{titulo} </h2>
       
-        <div className='relative left-[178px] top-[70px] z-[25] rounded-full bg-purple-700 w-[110px] h-[110px] flex justify-center items-center'>
+        <div className='relative left-[178px] top-[70px] z-[25] rounded-full bg-purple-700 w-[110px] h-[110px] flex justify-center items-center sm:left-[270px]'>
 
             <article className='grid grid-rows-[auto,auto] gap-0 '>
             <span className='text-yellow-500 font-bold font-Oswald text-xl text-center'>PRECIO</span>

@@ -34,8 +34,8 @@ const Producto = ({ident,detalles,wsp}:producto) => {
         
         <section key={ident} className=''>
 
-     <section className='relative -top-[290px]'>
-     <section className='w-[300px] h-[90px] rounded-tr-2xl rounded-br-2xl rounded-tl-2xl rounded-bl-2xl bg-negro2 overflow-x-scroll overflow-y-hidden flex flex-row justify-center items-center p-[4px]'>
+     <section className='relative -top-[290px] '>
+     <section className='w-[300px] h-[90px] rounded-tr-2xl rounded-br-2xl rounded-tl-2xl rounded-bl-2xl bg-negro2 overflow-x-scroll overflow-y-hidden flex flex-row justify-center items-center p-[4px] sm:relative sm:left-[19%]'>
         {detalles.imagenes?.map((imagen:any)=>{
           
           return(
@@ -88,7 +88,7 @@ const Producto = ({ident,detalles,wsp}:producto) => {
        })}
      </section>
     
-      <a className='fixed left-[280px] top-[500px] z-[26]'
+      <a className='fixed left-[280px] top-[500px] z-[26] sm:left-[560px]'
        href={wsp} target="_blank" >
         <img className='w-[65px]' src="/img/whatsapp_logo.svg" alt="" />
       </a>

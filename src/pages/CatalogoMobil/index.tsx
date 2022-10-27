@@ -2,7 +2,7 @@ import CardMobil from "../../components/CardMobil"
 import { productos } from "../../data/data"
 const Catalogo = () => {
   return (
-    <div className="flex flex-col gap-[25px] justify-center items-center  sm:hidden">
+    <div className="flex flex-col gap-[25px] justify-center items-center  md:hidden">
       {productos?.map((producto:any)=>{
         return(
           <>
